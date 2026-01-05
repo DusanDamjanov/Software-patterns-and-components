@@ -1,47 +1,41 @@
-# Software-patterns-and-components
-Software patterns and components university project - data visualization and parsing 
+📊 Software Patterns & Components: Data Visualization & Parsing
+Welcome to the Software Patterns and Components project! This is a university project focused on data visualization and parsing. Explore how we combine software design patterns and components to create a seamless, user-friendly experience for analyzing and visualizing data.
 
-**Team Members:**
+👨‍💻 Team Members:
+Nataša Džudžar (SV 14-2021)
+Dušan Damjanov (SV 68-2021)
+Uroš Muškinja (SV 77-2021)
+🔧 Requirements:
+Python 3.8 or higher (check your Python version via terminal with: python --version)
+🚀 Setting Up Your Environment
+Before getting started, let's set up your environment!
 
-  Dušan Damjanov SV 68-2021
-  Uroš Muškinja SV 77-2021
-  Nataša Džudžar SV 14-2021
+Clone the repository
+git clone <your-repository-link>
+cd <project-directory>
+Activating the Virtual Environment
 
-**Requirements:**
-Python 3.8 or higher. Python version can be checked via terminal
-***python --version***
-
-**Activating the Virtual Environment**
-
-To activate the virtual environment,  use the given scripts.
-Open a terminal, navigate to the project directory and run the following command:
-  ***chmod +x venv.sh && ./venv.sh  # for macOS and Linux***
-  ***call   venv.bat                # for Windows***
+To activate the virtual environment, use the given scripts. Open a terminal, navigate to the project directory and run the following command: chmod +x venv.sh && ./venv.sh # for macOS and Linux call venv.bat # for Windows
 
 When it comes to the windows, use the cmd and not terminal.
 
-**Package installation**
+📦 Package installation
 
 To install all the packages, run following commands inside venv:
 
-***chmod +x install.sh && ./install.sh  # for macOS and Linux***
-***call   install.bat #for Windows***
+chmod +x install.sh && ./install.sh # for macOS and Linux call install.bat #for Windows
 
-**Package installation check**
+Package installation check
 
-To check if packages are installed, run following command:
-  pip list
+To check if packages are installed, run following command: pip list
 
-**Run a server**
+⚙️ Run a server
 
-To run a server and boot up the project, run following command:
-***chmod +x run.sh && ./run.sh      # for macOS and Linux***
-***call   run.bat                   # for Windows***
+To run a server and boot up the project, run following command: chmod +x run.sh && ./run.sh # for macOS and Linux call run.bat # for Windows
 
-**How to use an app**
-1. Choose a file you want to chose from data
-2. Chose parser type based on the chosen data
-3. Chose visualization type
-4. Select "Start parse" button
-   
-And you're good to go :)
+🖥️ How to use the App
+
+Choose Your Data: Select the file you want to analyze.
+Pick the Parser: Choose the appropriate parser based on your data type.
+Select Visualization: Decide on the visualization style (e.g., bar charts, pie charts, etc.).
+Start Parsing: Hit the "Start Parse" button and you're all set :)
